@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Robots robot1 = new Robots();
+        Body body1 = new Body();
 
-        robot1.name = "Bogdan";
-        robot1.old = 17;
-        robot1.width = 69.6f;
-        robot1.hight = 174.7f;
+        body1.name = "Bogdan";
+        body1.old = 17;
+        body1.width = 69.6f;
+        body1.hight = 174.7f;
 
-        robot1.ResultSports();
+        body1.ResultSports();
     }
 
 }
